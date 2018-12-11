@@ -1,5 +1,7 @@
 package com.exam;
 
+import java.util.ArrayList;
+
 public class TicketRunner {
 	/*  Result:
 	 *  Taipei    Keelung  37   2  74

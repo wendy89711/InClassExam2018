@@ -5,7 +5,6 @@ public class Ticket {
 	String destination;
 	int price;
 	int quantity;
-	
 	public Ticket(String origin,String destination,int price,int quantity) {
 		this.origin = origin;
 		this.destination = destination;
@@ -13,7 +12,7 @@ public class Ticket {
 		this.quantity = quantity;
 	}
 	public String get() {
-		String s = (origin+" "+destination+" "+quantity+" "+(price*quantity));
+		String s = (origin+" "+destination+" "+price+" "+quantity+" "+(price*quantity));
 		return s;
 	}
 }

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Order {
 	ArrayList ticket = new ArrayList();
-	
 	public void add(Ticket t) {
 		ticket.add(t);
 	}
